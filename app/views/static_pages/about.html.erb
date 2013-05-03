@@ -1,6 +1,15 @@
 <% provide(:title, 'About') %>
 
-<h1>About Quote of the Day</h1>
+<ul>
+  <li><%= link_to "Home",         root_path %></li>
+  <li><%= link_to "About",        about_path %></li>
+  <li><%= link_to "Help",         help_path %></li>
+  <li><%= link_to "Contact",      contact_path %></li>
+  <li><%= link_to "Sign In",      signin_path %></li>
+  <li><%= link_to "Sign Up",      signup_path %></li>
+</ul>
+
+<h1>A bit about Quote of the Day</h1>
 
 <p>
   Quote of the day is a website that provides users with the opportunity to browse
